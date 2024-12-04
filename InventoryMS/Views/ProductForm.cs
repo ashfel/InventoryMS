@@ -115,7 +115,6 @@ namespace InventoryMS.Views
 
         private void btnDelete_Click_1(object sender, EventArgs e)
         {
-            // Get the Product ID from the Delete ID textbox
             int productId = int.Parse(txtDeleteId.Text);
 
             // Delete the product from the database via the controller
