@@ -29,5 +29,11 @@ namespace InventoryMS
             var categoryForm = new CategoryForm();
             categoryForm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var orderForm = new OrderForm();
+            orderForm.Show();
+        }
     }
 }
