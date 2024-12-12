@@ -33,6 +33,7 @@ namespace InventoryMS.Views
 
             listViewCategories.View = View.Details;
             listViewCategories.FullRowSelect = true;
+            listViewCategories.GridLines = true;
         }
 
         private void LoadCategories()
