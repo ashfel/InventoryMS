@@ -17,7 +17,6 @@ namespace InventoryMS.Controllers
             {
                 command.Parameters.AddWithValue("@Username", username);
 
-                // Open the connection if it's not already open
                 if (connection.State == System.Data.ConnectionState.Closed)
                 {
                     connection.Open();
@@ -27,8 +26,8 @@ namespace InventoryMS.Controllers
                 {
                     if (reader.Read())
                     {
-                        string storedPassword = reader.GetString(2); // Assuming password is in the 3rd column
-                        isValid = VerifyPassword(password, storedPassword);
+                        string storedPasswordHash = reader.GetString(2);
+                        isValid = PasswordHelper.VerifyPassword(password, storedPasswordHash);
                     }
                 }
             }
@@ -38,19 +37,19 @@ namespace InventoryMS.Controllers
 
         private bool VerifyPassword(string enteredPassword, string storedPassword)
         {
-            // Compare entered password with the stored password hash (assuming password is hashed)
-            return enteredPassword == storedPassword; // Replace with actual password hash verification if necessary
+            return enteredPassword == storedPassword;
         }
 
         public void AddUser(string username, string password)
         {
             var connection = DatabaseHelper.GetConnection();
             string query = "INSERT INTO Users (Username, Password) VALUES (@Username, @Password)";
+            string hashedPassword = PasswordHelper.HashPassword(password);
 
             using (var command = new SQLiteCommand(query, connection))
             {
                 command.Parameters.AddWithValue("@Username", username);
-                command.Parameters.AddWithValue("@Password", password); // Ensure password is hashed before storing
+                command.Parameters.AddWithValue("@Password", hashedPassword); // Ensure password is hashed before storing
 
                 // Open the connection if it's not already open
                 if (connection.State == System.Data.ConnectionState.Closed)
