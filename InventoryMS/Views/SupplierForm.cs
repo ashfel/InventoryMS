@@ -26,7 +26,7 @@ namespace InventoryMS.Views
             listViewSuppliers.GridLines = true;
 
             // Add columns
-            listViewSuppliers.Columns.Add("Supplier ID", 100, HorizontalAlignment.Left);
+            listViewSuppliers.Columns.Add("Supplier ID", 90, HorizontalAlignment.Left);
             listViewSuppliers.Columns.Add("Supplier Name", 150, HorizontalAlignment.Left);
             listViewSuppliers.Columns.Add("Email", 150, HorizontalAlignment.Left);
             listViewSuppliers.Columns.Add("Address", 200, HorizontalAlignment.Left);

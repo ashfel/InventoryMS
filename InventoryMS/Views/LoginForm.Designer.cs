@@ -40,15 +40,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 57);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 16);
+            this.label1.Size = new System.Drawing.Size(483, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Inventory Management Syetem | Login";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(312, 101);
+            this.txtUsername.Location = new System.Drawing.Point(328, 183);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(157, 22);
             this.txtUsername.TabIndex = 1;
@@ -56,31 +57,31 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(236, 107);
+            this.label2.Location = new System.Drawing.Point(252, 189);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 16);
+            this.label2.Size = new System.Drawing.Size(73, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Username";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(236, 151);
+            this.label3.Location = new System.Drawing.Point(252, 233);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 16);
+            this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "Password";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(312, 145);
+            this.txtPassword.Location = new System.Drawing.Point(328, 227);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(157, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(312, 188);
+            this.button1.Location = new System.Drawing.Point(328, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
@@ -90,7 +91,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(394, 188);
+            this.button2.Location = new System.Drawing.Point(410, 270);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -114,7 +115,6 @@
             this.Text = "LoginForm";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

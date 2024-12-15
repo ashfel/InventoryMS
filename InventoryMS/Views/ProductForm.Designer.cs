@@ -55,63 +55,64 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 16);
+            this.label1.Size = new System.Drawing.Size(347, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Inventory Management System | Product";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 74);
+            this.label2.Location = new System.Drawing.Point(37, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(45, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 102);
+            this.label3.Location = new System.Drawing.Point(37, 105);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 16);
+            this.label3.Size = new System.Drawing.Size(43, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "Stock";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 155);
+            this.label4.Location = new System.Drawing.Point(37, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 16);
+            this.label4.Size = new System.Drawing.Size(79, 17);
             this.label4.TabIndex = 4;
             this.label4.Text = "Description";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(119, 71);
+            this.txtName.Location = new System.Drawing.Point(120, 74);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(121, 22);
             this.txtName.TabIndex = 5;
             // 
             // txtQuantity
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(119, 99);
+            this.txtQuantity.Location = new System.Drawing.Point(120, 102);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(121, 22);
             this.txtQuantity.TabIndex = 6;
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(119, 152);
+            this.txtDescription.Location = new System.Drawing.Point(120, 155);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(121, 22);
             this.txtDescription.TabIndex = 7;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(144, 210);
+            this.btnAdd.Location = new System.Drawing.Point(145, 213);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 8;
@@ -122,15 +123,15 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(50, 46);
+            this.label5.Location = new System.Drawing.Point(51, 49);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 16);
+            this.label5.Size = new System.Drawing.Size(86, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Add Product";
             // 
             // txtDeleteId
             // 
-            this.txtDeleteId.Location = new System.Drawing.Point(454, 71);
+            this.txtDeleteId.Location = new System.Drawing.Point(451, 77);
             this.txtDeleteId.Name = "txtDeleteId";
             this.txtDeleteId.Size = new System.Drawing.Size(113, 22);
             this.txtDeleteId.TabIndex = 11;
@@ -138,24 +139,24 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(409, 71);
+            this.label6.Location = new System.Drawing.Point(406, 77);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(20, 16);
+            this.label6.Size = new System.Drawing.Size(21, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "ID";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(428, 36);
+            this.label7.Location = new System.Drawing.Point(425, 42);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(96, 16);
+            this.label7.Size = new System.Drawing.Size(102, 17);
             this.label7.TabIndex = 12;
             this.label7.Text = "Delete Product";
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(470, 102);
+            this.btnDelete.Location = new System.Drawing.Point(467, 108);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 13;
@@ -165,7 +166,7 @@
             // 
             // txtUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(119, 127);
+            this.txtUnitPrice.Location = new System.Drawing.Point(120, 130);
             this.txtUnitPrice.Name = "txtUnitPrice";
             this.txtUnitPrice.Size = new System.Drawing.Size(121, 22);
             this.txtUnitPrice.TabIndex = 15;
@@ -182,16 +183,16 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(36, 130);
+            this.label9.Location = new System.Drawing.Point(37, 133);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 16);
+            this.label9.Size = new System.Drawing.Size(40, 17);
             this.label9.TabIndex = 17;
             this.label9.Text = "Price";
             // 
             // comboCategory
             // 
             this.comboCategory.FormattingEnabled = true;
-            this.comboCategory.Location = new System.Drawing.Point(119, 180);
+            this.comboCategory.Location = new System.Drawing.Point(120, 183);
             this.comboCategory.Name = "comboCategory";
             this.comboCategory.Size = new System.Drawing.Size(121, 24);
             this.comboCategory.TabIndex = 18;
@@ -199,9 +200,9 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(38, 188);
+            this.label10.Location = new System.Drawing.Point(39, 191);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(62, 16);
+            this.label10.Size = new System.Drawing.Size(65, 17);
             this.label10.TabIndex = 19;
             this.label10.Text = "Category";
             // 
@@ -210,7 +211,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(720, 36);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(101, 16);
+            this.label11.Size = new System.Drawing.Size(107, 17);
             this.label11.TabIndex = 20;
             this.label11.Text = "Update Product";
             // 
@@ -236,7 +237,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(699, 74);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(20, 16);
+            this.label12.Size = new System.Drawing.Size(21, 17);
             this.label12.TabIndex = 21;
             this.label12.Text = "ID";
             // 
@@ -271,7 +272,6 @@
             this.Text = "ProductForm";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
