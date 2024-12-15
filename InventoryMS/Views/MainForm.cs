@@ -35,5 +35,11 @@ namespace InventoryMS
             var orderForm = new OrderForm();
             orderForm.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var supplierForm = new SupplierForm();
+            supplierForm.Show();
+        }
     }
 }

@@ -69,7 +69,9 @@
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\PasswordHelper.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SupplierController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Models\Entity\Supplier.cs" />
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,11 +114,23 @@
     <Compile Include="Views\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\SupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SupplierForm.Designer.cs">
+      <DependentUpon>SupplierForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\UpdateProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\UpdateProductForm.Designer.cs">
       <DependentUpon>UpdateProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateSupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UpdateSupplierForm.Designer.cs">
+      <DependentUpon>UpdateSupplierForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -145,8 +159,14 @@
     <EmbeddedResource Include="Views\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\SupplierForm.resx">
+      <DependentUpon>SupplierForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\UpdateProductForm.resx">
       <DependentUpon>UpdateProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UpdateSupplierForm.resx">
+      <DependentUpon>UpdateSupplierForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Inventory.db" />
     <None Include="packages.config" />
